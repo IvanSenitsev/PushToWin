@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushToWin.Android", "PushToWin\PushToWin.Android\PushToWin.Android.csproj", "{80341E94-7C02-436E-A325-A53F88F9E251}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8DE2B5A1-7362-4598-ACB9-CD256C90E349} = {8DE2B5A1-7362-4598-ACB9-CD256C90E349}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushToWin.iOS", "PushToWin\PushToWin.iOS\PushToWin.iOS.csproj", "{8DE2B5A1-7362-4598-ACB9-CD256C90E349}"
 EndProject
